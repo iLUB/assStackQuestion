@@ -87,6 +87,9 @@ class assStackQuestionAuthoringGUI
 			$toolbar->addButtonInstance($link);
 		}
 		$this->getTemplate()->setVariable("TOOLBAR", $toolbar->getHTML());
+		include_once ('./Services/UIComponent/Panel/classes/class.ilPanelGUI.php');
+        $info=$this->createPatchInfo();
+        $this->getTemplate()->setVariable("INFO", $info);
 
 		//Set form
 		require_once("./Services/Form/classes/class.ilPropertyFormGUI.php");
@@ -1274,4 +1277,14 @@ class assStackQuestionAuthoringGUI
 
 		return $options;
 	}
+
+	public function createPatchInfo()
+    {
+        $msg_template = new ilTemplate('tpl.message.html', TRUE, TRUE, 'Services/Utilities');
+        $msg_template->setCurrentBlock("info_message");
+        $msg_template->setVariable('TEXT', $this->getPlugin()->txt("info_stack_patch"));
+        $msg_template->parseCurrentBlock();
+        return $msg_template->get();
+    }
+
 }
