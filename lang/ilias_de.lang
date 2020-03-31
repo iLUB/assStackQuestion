@@ -465,4 +465,4 @@ input_stars_singlechar#:#Sternchen einfügen, indem von Variablennamen mit nur e
 input_stars_spaces#:#Sternchen nur für Leerzeichen einfügen
 input_stars_implied_spaces#:#Sternchen für implizierte Multiplikation und für Leerzeichen einfügen
 input_type_implied_spaces_single#:#Sternchen einfügen, indem von Variablennamen mit nur einem Zeichen ausgegangen wird, implizierte und für Leerzeichen
-info_stack_patch#:#Achtung, wir evaluieren zur Zeit den Einsatz der STACK Fragen. Wir können nicht garantieren, diese Option langfristig auf unserem System anzubieten. Im Besonderen für Prüfungen mit mehr als 100 Teilnehmer_Innen sollte die Benutzung dieser Frage zuerst mit info@ilub.unibe.ch abgesprochen werden.
+info_stack_patch#:#Achtung, wir evaluieren zur Zeit den Einsatz der STACK Fragen. Wir können nicht garantieren, diese Option langfristig auf unserem System anzubieten. Im Besonderen für formative Tests mit mehr als 100 Teilnehmer_Innen sollte die Benutzung dieser Frage zuerst mit info@ilub.unibe.ch abgesprochen werden.
